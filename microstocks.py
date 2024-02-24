@@ -2,6 +2,7 @@ import yfinance as yf
 import matplotlib.pyplot as plt
 
 #Test with DEV branch. Making those changes.
+#Adding more changes for the merge
 
 def fetch_stock_data(ticker, start_date, end_date):
     stock_data = yf.download(ticker, start=start_date, end=end_date)
